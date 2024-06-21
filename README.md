@@ -23,28 +23,26 @@ Perché ci si mette sempre un’ora a scegliere cosa guardare la sera? Certo è 
     ESERCIZIO 
 ---------------->
 
-? SE hai voglia di guardare Netflix
+? SE Hai voglia di guardare Netflix
     > Verifica quanto tempo hai a disposizione
         >> ? SE hai tanto tempo a disposizione
-            >>> Guarda un film
             >>> Scegli il genere che più preferisci.
                 >>>> ? SE ti piace il genere horror
-                    >>>>> Controlla che ci sia un film horror che ti aggrada
+                    >>>>> Controlla che ci sia un film horror che ti aggrada    <!-- Contatore ? -->
                         >>>>>> Guardalo. FINE
                         >>>>>> : ALTRIMENTI Torna alla scelta del genere.
                 >>>> ? SE ti piace il genere commedia
-                    >>>>> Controlla che ci sia una commedia che ti aggrada
+                    >>>>> Controlla che ci sia una commedia che ti aggrada  <!-- Contatore ? -->
                         >>>>> Guardala. FINE
                         >>>>>  : ALTRIMENTI Torna alla scelta del genere.
         >> : ALTRIMENTI se hai poco tempo
-            >>> Guarda una serie TV
             >>> Scegli il genere che più preferisci.
                 >>>> ? SE ti piace il genere horror
-                    >>>>> Controlla che ci sia una serie romantica che ti aggrada
+                    >>>>> Controlla che ci sia una serie romantica che ti aggrada   <!-- Contatore ? -->
                         >>>>>> Guardala. FINE
                         >>>>>> : ALTRIMENTI Torna alla scelta del genere.
                 >>>> ? SE ti piace il genere Thriller
-                    >>>>> Controlla che ci sia una serie thriller che ti aggrada
+                    >>>>> Controlla che ci sia una serie thriller che ti aggrada    <!-- Contatore ? -->
                         >>>>> Guardala. FINE
                         >>>>>  : ALTRIMENTI Torna alla scelta del genere.
-? SE non hai voglia di guardare NETFLIX fai altro o vai a letto.
+    > : ALTRIMENTI Fai altro o vai a letto.
